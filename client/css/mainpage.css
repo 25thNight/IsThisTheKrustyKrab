@@ -1,0 +1,96 @@
+body {
+    background: url(../img/ocean.jpg) repeat;
+}
+
+.navbar-custom{
+    border-radius: 0;
+    background: black;
+    padding: 10px 0;
+    height: 70px;
+    font-size: 18px;
+}
+
+.header{
+    padding: 100px 0 50px;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+    padding: 5px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+
+.nav-item-custom{
+    transition: ease-out 0.5s;
+    transition-property: background-color;
+    background-color: black;
+}
+
+.nav-item-custom:hover{
+    background-color: slategray !important;
+}
+
+.navbar-brand>img{
+    background-image: url(../img/gg_logo_small.png);
+    margin: 0 5px 0 0;
+    display: inline-block;
+}
+
+.about-us-body{
+    background: white;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 20px 0;
+}
+
+.apply-button{
+    padding: 0 30px;
+}
+
+.right-arrow{
+    height: 40px;
+    width: 40px;
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+#header-prim-text{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    height: 120px;
+}
+
+#header-logo{
+    background-image: url(../img/gg_logo_medium.png);
+    width: 205px;
+    height: 205px;
+    margin: auto;
+}
+
+#header-sub-text{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#header-apply{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+#header-apply>button{
+    background: transparent;
+    border: white 2px solid;
+}
+
+#example-text{
+    text-align: left;
+}
