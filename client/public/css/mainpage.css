@@ -11,7 +11,7 @@ body {
 }
 
 .header{
-    padding: 100px 0 50px;
+    padding-bottom: 50px;
 }
 
 .navbar-inverse .navbar-brand{
@@ -57,6 +57,10 @@ body {
     border-width: 0 5px 5px 0;
     display: inline-block;
     transform: rotate(-45deg);
+}
+
+.content{
+    padding-top: 100px;
 }
 
 #header-prim-text{

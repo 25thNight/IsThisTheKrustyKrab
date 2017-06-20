@@ -1,14 +1,22 @@
 {
-  "name": "chat-example",
+  "name": "tgg",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "Guild website for 'The Goofy Goobers'",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "repository": "https://github.com/25thNight/IsThisTheKrustyKrab.git",
+  "author": "Kyle Henderson",
   "dependencies": {
-    "async": "~0.2.8",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "express": "~3.2.4",
-    "nodemailer": "^4.0.1",
-    "socket.io": "~0.9.14"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
   }
 }
